@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:fontFamily="@font/artifika"
+                android:gravity="bottom|center"
+                android:text="@string/textview4_2"
+                android:textColor="#EF6C00"
+                android:textSize="43sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/textview4_2_a"
+                android:textColor="#FA1E0A"
+                android:textSize="30sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:text="   >   Amarnath Dham"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zad1" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The holy shrine of Amarnath Ji, or Amarnath Temple, is located at an elevation of 3,888 meters approx, about 29 kilometers from Pahalgam. Inside the cave is a God Shiva Lingam, considered to be the most holy symbol by Hindus all across the globe. Devotees visit it in large numbers from June to August, with the pilgrimage tour famously known as Amarnath Yatra, which begins from Chandanwari. It is considered to be one of the 18 Maha Shakti Peethas, or the holiest shrines in Hinduism. Besides seeking blessings at the Amarnath Temple, the views surrounding it are extraordinary." />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Mata Vaishno Devi, Katra"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zmv2" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Vaishno Devi Temple is an important Hindu temple dedicated to Mata Vaishno Devi located in Katra at the Trikuta Mountains within the Indian Union territory of Jammu and Kashmir. The temple is one of the 108 Shakti Peethas dedicated to Mata Durga, who is worshipped as Mata Vaishno Devi." />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   PatniTop"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zp15" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Patnitop is a hill resort located in the Udhampur district of Jammu and Kashmir on a plateau in the Shivalik belt. At a height of 2024 meters and surrounded by dense forests, forms the backdrop of Chenab River flowing nearby. This flourishing hill top boasts of three fresh water springs with ice cold water and having medicinal properties. A thick snow fall in winters is a great tourist attraction. A haven for outdoor pursuits, Patnitop is also a trailhead for numerous treks to the nearby mountains and a charm for adventure lovers. It provides for a breath taking view of the Pir Panjal range." />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Aru Valley"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/za4" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aru is a village, tourist spot in the Anantnag District of Jammu and Kashmir, India. It lies 53km from Anantnag city, the district headquarter. It is located around 12 km from Pahalgam, 11 km upstream from the Lidder River. Noted for its scenic meadows, lakes and mountains, it is a base camp for trekking to the Kolhoi Glacier, Tarsar Lake, Marsar and Herbaghwan Lake. The village lies on the left bank of the Aru river, which is a tributary of the Lidder river. Jammu and Kashmir’s biggest Fodder Seed Product Station is also located in the Aru village." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Baltal"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zb5" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baltal is a camping ground for pilgrims, 75 km from Ganderbal town in Ganderbal district of Jammu and Kashmir, India and 93 km from capital city Srinagar and 15 km north of Sonamarg on the Sind River at the base of Zojila pass. This little valley is only a day's journey away from Srinagar and provides a shorter high-altitude alternate route to the sacred cave of Amarnath." />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Bhaderwah"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zb6" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bhaderwah or Bhadarwah (also Bhaderwah Valley) is a town, tehsil and sub-division (sub-district) in the Doda district of the Jammu Division of Jammu and Kashmir, India. It is also known as Chota Kashmir (Mini Kashmir) for its scenic beauty and for its high literacy rate it is known as Kerala of Jammu and Kashmir." />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Dal lake, Srinagar"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zd7" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Srinagar is the largest city and the summer capital of Jammu and Kashmir, India. It lies in the Kashmir Valley on the banks of the Jhelum River, a tributary of the Indus, and Dal and Anchar lakes. The city is known for its natural environment, gardens, waterfronts and houseboats. It is known for traditional Kashmiri handicrafts like the Kashmir shawl (made of pashmina and cashmere wool), and also dried fruits." />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Gul Marg"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zg8" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gulmarg, known as Gulmarag[4] in Kashmiri, is a town, hill station, popular skiing destination, and notified area committee in the Baramulla district of Jammu and Kashmir, India.[6][7] It is located at a distance of 31 km (19 mi) from Baramulla and 49 km (30 mi) from Srinagar. The town is situated in the Pir Panjal Range in the Western Himalayas and lies within the boundaries of Gulmarg Wildlife Sanctuary." />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Hemis"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zh9" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hemis, also spelled Hamis, is a village in the Leh district of Ladakh, India. It is located in the Kharu tehsil, 40 km southeast of Leh town on the Leh-Manali Highway.
+Hemis is well known for the Hemis monastery that was established in 1672 AD by king Sengge Namgyal. The village hosts a colorful festival held in July. It is close to the Hemis National Park, an area that is home to the endangered snow leopard. The national park was created in 1981." />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Pahal Gam"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/zp14" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pahalgam , known as Pahalgom is a town and a notified area committee, near Anantnag city in the Anantnag district of the Indian-administered union territory of Jammu and Kashmir. It is a popular tourist destination and hill station. Its lush green meadows and pristine waters attract thousands of tourists from all over the world each year.[9] It is located 45 kilometres (28 mi) from Anantnag on the banks of Lidder River at an altitude of 7,200 feet (2,200 m). Pahalgam is the headquarters of one of the eleven tehsils of Anantnag district." />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Perfect Combo\nFor\n₹ 20,000 /head"
+                android:textColor="#EF6C00"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/bnbuttonjk"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:onClick="onClickOnbnbuttonjk"
+                android:text="Book Now"
+                android:textColor="#02FAE1"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

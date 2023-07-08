@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:fontFamily="@font/artifika"
+                android:gravity="bottom|center"
+                android:text="@string/textview3_2"
+                android:textColor="#EF6C00"
+                android:textSize="43sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/textview3_2_a"
+                android:textColor="#FA1E0A"
+                android:textSize="30sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:text="   >   KedarNath Dham"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/k9" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kedarnath temple is one of the sacred pilgrimage centre in Northern India, located on the bank of Mandakini river at an altitude of 3584 meters above sea level. The historical name of this region is 'Kedar Khand'. Kedarnath temple is a part of Char Dhams and Panch Kedar in Uttarakhand and one of the 12 Jyotirlingas of God Shiva in India." />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   BadriNath Dham"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/b2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Badrinath or Badrinarayana Temple is a Hindu temple dedicated to God Vishnu. It is situated in the town of Badrinath in Uttarakhand, India. The temple is also one of the 108 Divya Desams dedicated to Vishnu - holy shrines for Vaishnavas - who is worshipped as Badrinath.The temple is located in Garhwal hill tracks in Chamoli district along the banks of Alaknanda River." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Gangotri Dham"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/g5" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India. It is 99 km from Uttarkashi, the main district headquarter. It is a Hindu pilgrim town on the banks of the river Bhagirathi – the origin of the river Ganges. The town is located on the Greater Himalayan Range, at a height of 3,100 metres (10,200 ft). According to popular and Oldest Hindu Textbook, Goddess Ganga descended here when God Shiva released the mighty river from the locks of his hair." />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Yamunotri Dham"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/y17" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yamunotri Temple is situated in the western region of Garhwal Himalayas at an altitude of 3,291 metres (10,797  ft) in Uttarkashi district, Uttarakhand. It's Just 129 km from Uttarkashi, the main district headquarter. The temple is dedicated to Goddess Yamuna and has a black marble idol of the goddess." />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   GauMukh"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/g6" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gomukh, also known as 'Gaumukh' or 'Gomukhi', is the terminus or pout of the Gangotri Glacier and the source of the Bhagirathi River, one of the primary headstreams of the Ganga River. The word Gomukh/Gaumukh (go/gau=cow, mukh= mouth) literally means 'Mouth of a Cow.'
+
+The place is situated at a height of 13,200 ft (4,023 m) in the Uttarkashi district in the state of Uttarakhand, India. It is one of the largest in the Himalayas with an estimated volume of over 27 cubic kilometers.
+
+It is a holy Hindu pilgrimage site, visited by many who visit Gangotri. It is around 20km away from Gangotri and can be reached by trekking." />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Haridwar"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/h7" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Haridwar, the gateway to the Gods, is situated on the right bank of the holy Ganga and is regarded among the seven sacred cities of India. Haridwar is also, the gateway to the four major pilgrimages- the Char Dham - Kedarnath, Badrinath, Gangotri and Yamunotri. According to Hindu mythology, Haridwar is one of the four places where the drops of Amrita, the elixir of immortality, accidentally spilled over from the pitcher or Kumbha, in which it was being carried away by Garuda, the celestial bird and the vehicle of Lord Vishnu. It is, therefore, one of the four venues where the Kumbh Mela ' said to the largest congregation of humanity anywhere in the world ' is held once every 12 years. Haridwar is also the place where the river Ganga enters the Indo-Gangetic plains for the first time. Haridwar is also home to several ashrams which specialize in teaching meditation and yoga." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   DevPryag"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/d4" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devprayag  is a town and a nagar panchayat, near New Tehri city in Tehri Garhwal District in the state of Uttarakhand, India, and is the final one of the Panch Prayag (five confluences) of Alaknanda River where Alaknanda meets the Bhagirathi river and both rivers thereafter flow on as the Ganges river or Ganga." />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Nainital"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/n12" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nainital, the charming Himalayan lake town, is a picture-postcard perfect hill-station and one of the most popular in Northern India. Commonly known as the ‘Lake District’, Nainital is nestled high up in the Kumaon Himalayas at an altitude of around 2,000 m above sea level. This beautiful town in surrounded by seven hills, popularly known as ‘Sapta-Shring’ – Ayarpata, Deopata, Handi-Bandi, Naina, Alma, Lariya-Kanta and Sher-Ka-Danda. The town is centred around the emerald mountain lake Naini, which on most days is dotted with colourful sailboats. According to mythology, the lake is believed to have been formed when the eyes of goddess “Sati” fell at this spot while her body was being carried by God Shiva after her death." />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Rishikesh"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/r14" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rishikesh is town in the Dehradun District of Uttarakhand state in India. Rishikesh is situated at 409 meters above sea level in the foothills of Garhwal Himalayan Range and surrounded by the Shivalik range.
+Rishikesh has spectacular view of jungle-clad hills. Rishikesh has also confluence of River Ganges and Chandrabhaga. The glorious attraction of Rishikesh is none other than the great river Ganges herself, running rapidly throughout the city. In the ancient time and still so many yogis, rishis, sages and sannyasis attracted to Rishikesh to practice yoga in this peaceful location. Since then, Rishikesh has known as an abode of sages." />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   VishnuPryag"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/v16" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vishnuprayag is one of the Panch Prayag (five confluences) of Alaknanda River, and lies at the confluence of Alaknanda River and Dhauliganga River, in Chamoli district in the Indian state of Uttarakhand. Vishnuprayag derives its name from Vishnu, According to Hindu scriptures, it is the place where Sage Narada meditated, after which Vishnu appeared before him. It is near to Kagbhusandi Lake." />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Perfect Combo\nFor\n₹ 20,000 /head"
+                android:textColor="#EF6C00"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/bnbuttonuk"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:onClick="onClickOnbnbuttonuk"
+                android:text="Book Now"
+                android:textColor="#02FAE1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

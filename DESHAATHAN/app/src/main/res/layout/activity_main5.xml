@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:fontFamily="@font/artifika"
+                android:gravity="bottom|center"
+                android:text="@string/textview5_2"
+                android:textColor="#EF6C00"
+                android:textSize="43sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/textview5_2_a"
+                android:textColor="#FA1E0A"
+                android:textSize="30sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:text="   >   Kashi"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up7k" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Varanasi, or Benaras, (also known as Kashi) is one of the oldest living cities in the world. Varanasi`s Prominence in Hindu mythology is virtually unrevealed. Mark Twain, the English author and literature, who was enthralled by the legend and sanctity of Benaras, once wrote :
+“Benaras is older than history, older than tradition, older even than legend and looks twice as old as all of them put together”.
+
+The land of Varanasi (Kashi) has been the ultimate pilgrimage spot for Hindus for ages. Hindus believe that one who is graced to die on the land of Varanasi would attain salvation and freedom from the cycle of birth and re-birth. Abode of Lord Shiva and Parvati, the origins of Varanasi are yet unknown. Ganges in Varanasi is believed to have the power to wash away the sins of mortals. Hindus believe that one who is graced to die on the land of Varanasi would attain salvation and freedom from the cycle of birth and re-birth." />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Ayodhya"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up2a" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayodhya is a city situated on the banks of holy river Saryu. In the Indian state of Uttar Pradesh, It is the headquarter of Ayodhya District and Ayodhya division. Ayodhya, also known as Saket, is an ancient city of India, is the birthplace of Bhagwan Shri Ram.  Ayodhya used to be the capital of the ancient Kosala Kingdom. It has an average elevation of 93 meters (305 feet)." />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Mathura"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up3m" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mathura, being the birthplace of Bhagwan Shri Krishna, is one of the important Hindu pilgrimage sites. Every inch of Mathura is clothed in reverend devotion to Lord Krishna, the eternal lover of Radha, the warrior, the diplomat and the hero of the cowherd colleagues. Mathura without Bhagwan Shri Krishna is like Life without Water.
+
+There is hardly any need to mention that the city of Mathura (and the whole of Brajbhumi, for that matter) is not an ordinary material city, for it is the transcendental abode of Bhagwan Shri Krishna and His consorts and a Cosmic Place for His Divine ‘Leela’ sport." />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Vrindavan"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up4v" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vrindavan takes its name literally from “forest of Tulsi” or the Holy Basil (Ocimum tenuiflorum). Two groves of these Tulsi herbs can still be seen in Sewa Kunj and Nidhivan both of which are situated near the city and were the favorite sites for Radha and Krishna as well as the Gopis for conducting their ‘dance of devout passion’ or ‘Raas Lila’.
+Vrindavan is a city of temples and ashrams where devotees of Lord Krishna have built, extended or contributed towards increasing the creature comforts for the devotees thronging to the divine pilgrimage site. The city virtually reverberates with the resounding chants of ‘Radhe Krishna’ during the morning and evening hours when six ‘pujas’ or ‘aartis’ are performed and the ‘prasad’ or ‘bhog’ is also distributed." />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Pryagraj"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up5p" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pryagraj is presently one of the largest cities in Uttar Pradesh. The city is located at the confluence of the three most important and sacred rivers of Indian subcontinent – Ganga, Yamuna and Saraswati and the point where the three rivers meet is known as Triveni.
+Pryagraj is blessed with rich history. The Aryans are believed to be the first settlers of the city and coined the name Prayag which means the place of offering. Ancient Sanskrit text cites – “Prayagasya Prashshu Papam Nashwati Tatkshanam,” which means that all sins are espurgated as soon as one enters Prayag. During the pre-Buddhist era,Pryagraj was known as the land of Vats. The name was derived from one of the Rishis (sages) of the Vedic period." />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Agra"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up6t" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agra is a city offering a discovery of the beautiful era. Agra has a rich history, reflected in its numerous monuments dotted in and around the city. The earliest citation for Agra comes from the mythological era, where the epic Mahabharata refer Agra as ‘Agravana’ meaning paradise in Sanskrit. ‘Ptolemy’, the famous second century A.D. geographer, was the first person who referred Agra with its modern name.The city lies in the Western part of Uttar Pradesh on the bank of River Yamuna." />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Bateshwar Temples"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up10b" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Bateshwar Hindu temples (or Batesara, Bateśvar) are a group of nearly 200 sandstone Hindu temples and their ruins in north Madhya Pradesh in post-Gupta, early Gurjara-Pratihara style of North Indian temple architecture. The temples are mostly small and spread over about 25 acres (10 ha) site. They are dedicated to Shiva, Vishnu and Shakti - representing the three major traditions within Hinduism. The site is within the Chambal River valley ravines, on the north-western slope of a hill near Padavali known for its major medieval era Vishnu temple. The Bateshwar temples were built between the 8th and the 10th-century. The site is likely named after the Bhuteshvar Temple, the largest Shiva temple at the site. It is also referred to as Batesvar temples site or Batesara temples site." />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Lucknow"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up12l" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lucknow, city, capital of Uttar Pradesh state, northern India. It is located roughly in the centre of the state, on the Gomati River about 45 miles (72 km) northeast of Kanpur." />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   National Chambal Wildlife\n        Sanctuary"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up_chambal" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Chambal Sanctuary, also called the National Chambal Gharial Wildlife Sanctuary, is a 5,400 sq. km tri-state protected area in northern India home to critically endangered gharial (small crocodiles), the red-crowned roof turtle and the endangered Ganges river dolphin. Located on the Chambal River near the tri-point of Rajasthan, Madhya Pradesh and Uttar Pradesh, it was first declared as a PAs in Madhya Pradesh in 1978 and now constitutes a long narrow eco-reserve co-administered by the three states." />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Sarnath"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/up15s" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sarnath is a small village in Uttar Pradesh, situated about 13 km north-east of the holy city of Varanasi. Formerly known as Isipatana, it is famous as the site where Gautama Buddha first taught the Dharma, or where Buddha preached his first sermon. It is also the place where the original Sangha was formed. Hence, it is one of the four main Buddhist pilgrimage destinations." />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Perfect Combo\nFor\n₹ 20,000 /head"
+                android:textColor="#EF6C00"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/bnbuttonup"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:onClick="onClickOnbnbuttonup"
+                android:text="Book Now"
+                android:textColor="#02FAE1"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

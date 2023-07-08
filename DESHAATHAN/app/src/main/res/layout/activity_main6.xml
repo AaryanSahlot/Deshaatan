@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:fontFamily="@font/artifika"
+                android:gravity="bottom|center"
+                android:text="@string/textview6_2"
+                android:textColor="#EF6C00"
+                android:textSize="43dp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/textview6_2_a"
+                android:textColor="#FA1E0A"
+                android:textSize="30sp"
+                android:textStyle="normal|bold|italic" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:text="   >   Shimla"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hps1" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shimla also known as Simla, is the capital and the largest city of the northern Indian state of Himachal Pradesh. In 1864, Shimla was declared as the summer capital of British India. After independence, the city became the capital of East Punjab and was later made the capital city of Himachal Pradesh. It is the principal commercial, cultural and educational centre of the state." />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Manali"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpm2" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manali is a town, near Kullu town in Kullu district in the Indian state of Himachal Pradesh.[2] It is situated in the northern end of the Kullu Valley, formed by the Beas River. The town is located in the Kullu district.
+Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh." />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Kullu"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpk3" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kullu Valley is a broad open valley formed by the Beas River between Manali and Larji. This valley is known for its temples and its hills covered with pine and deodar forest and sprawling apple orchards. The course of the Beas river, originating from Beas Kund presents a succession of magnificent, clad with forests of deodar, towering above trees of pine on the lower rocky ridges brings the most out of this magnificent town. Kullu Valley is sandwiched between the Pir Panjal, Lower Himalayan and Great Himalayan Ranges, located in Northern India, 497 k.m. away from the capital of India." />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Mandi"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpm4" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mandi, town, central Himachal Pradesh state, northwestern India. It lies along the Beas River north-northwest of Shimla, the state capital.
+Mandi is a trade centre for agricultural produce and timber. Hand-loom weaving and handicrafts are the principal industries. The town also conducts a frontier trade with Tibet." />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Mana Last Indian Village"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hp_mana11" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mana is a last Indian village from the border of India and Tibet/China in the Himalayas. It is located in the district of Chamoli. It’s been designated as a “Tourism Village” by the Uttarakhand government. Mana village is one of best tourist attraction nearby to Badrinath, It's just 3 kms from Badrinath town. The village is on the banks of the River Saraswati. It is situated at a height of around 3219 meters. The village is surrounded by Himalayan hills." />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Dharamsala"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpd9" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="While visiting Dharamshala, it feels like one has visited to a country dwelled by Tibetans. But the soul and the soil are truly welcoming. Located in Western Himachal region, Dharamshala is a prominent name in Buddhist tour to the state, as the home of Dalai Lama and all the Tibetans in exile. It is a well-known centre for studying Buddhism, its sutras, tantras, and major texts related to this. And now it has emerged as one of the major visited sites in Himachal Pradesh attracting scholars, pilgrims and tourists alike." />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Hikkim"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hph11" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hikkim, a small village in Lahaul and Spiti district of Himachal Pradesh, is known for housing the world's highest post office. Besides this universal fact, the serene location of the place makes it a perfect holiday destination for those in search of tranquillity. Due to its high elevation, the village remains snow-capped for a considerable time around the year. Hence, you would want to visit Hikkim when the weather is pleasant." />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Narkanda"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpn14" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Narkanda is a town and a nagar panchayat in Kumarsain subdivision of Shimla district in the Indian state of Himachal Pradesh. It is at an elevation of 2708 meters on the Hindustan-Tibet Road (NH 5) in Himachal Pradesh, India within a fir (abies pindrow) forest. It is about 60 km away from Shimla and surrounded by the Himalayan Range.
+Refuelling station in Narkanda.
+It is a skiing resort in winter. It connects Shimla with Kumarsain and Rampur and a detour also goes to Kotgarh-Thanedhar, the prime apple belt of Himachal Pradesh where Satyananda Stokes started the apple culture." />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Spiti Valley"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpsv16" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spiti is a high-altitude region of the Himalayas, located in the north-eastern part of the northern Indian state of Himachal Pradesh. The name 'Spiti' means 'The middle land', i.e. the land between Tibet and India.[2] Spiti incorporates mainly the valley of the Spiti river, and the valleys of several rivers that feed into the Spiti river. Some of the prominent side-valleys in Spiti are the Pin valley and the Lingti valley. Spiti is bordered on the east by Tibet, on the north by Ladakh, on the west and southwest by Lahaul, on the south by Kullu, and on the southeast by Kinnaur." />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center|left"
+                android:text="   >   Triund"
+                android:textColor="#EF6C00"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/hpt18" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Triund is the base camp of all Dhauladhar range treks, also known as the crown jewel of Dharamshala. It has the perfect view of the mountains and also the views of Kangra valley on the other. This spectacular hilltop is located approximately 17 kms away from Dharamshala at an altitude of 2,827 meters above sea level. People love visiting this spot as the stunning snowline of Dhauladhar range starts just 5 kms from Triund and affords a breathtaking view of the snow beautiful valleys." />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Perfect Combo\nFor\n₹ 20,000 /head"
+                android:textColor="#EF6C00"
+                android:textSize="34sp" />
+
+            <Button
+                android:id="@+id/bnbuttonhp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="30dp"
+                android:onClick="onClickOnbnbuttonhp"
+                android:text="Book Now"
+                android:textColor="#02FAE1"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

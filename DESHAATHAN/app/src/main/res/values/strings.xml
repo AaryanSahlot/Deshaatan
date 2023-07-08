@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DESHAATHAN</string>
+    <string name="textview"><u>NAMASKAR</u></string>
+    <string name="img1">img1</string>
+    <string name="textview2_1_a"><u>Please\nSelect\nThe State.</u></string>
+    <string name="button2_1_a">1. UTTARAKHAND</string>
+    <string name="img2_1_a1">img2_1_a1</string>
+    <string name="textview3_2"><u>UTTARAKHAND</u></string>
+    <string name="textview3_2_a"><u>Places to Visit</u></string>
+    <string name="line1">line</string>
+    <string name="auli3_2"></string>
+    <string name="auli3_2_a"><![CDATA[> Auli]]></string>
+    <string name="textview4_2"><u>JAMMU AND KASHMIR</u></string>
+    <string name="textview4_2_a"><u>Places to Visit</u></string>
+    <string name="textview4_2_b">TextView</string>
+    <string name="textview5_2"><u>UTTAR\nPRADESH</u></string>
+    <string name="textview5_2_a"><u>Places to Visit</u></string>
+    <string name="textview6_2"><u>HIMACHAL\nPRADESH</u></string>
+    <string name="textview6_2_a"><u>Places to Visit</u></string>
+    <string name="textview7_3"><u>Reservation</u></string>
+    <string name="textview9_1">Hello !</string>
+    <string name="textview9_2">Your Reservation has\nAccomplished\nSuccessfully.\n\nYou have Planned\nfor a Trip, with</string>
+    <string name="button9_1"><u>Terms, Conditions and Requirements</u></string>
+    <string name="terms_and_conditions"><u>Terms and Conditions</u></string>
+    <string name="textviewt_c_r"><b><u><i>Booking a Trip with Maximal Tours</i></u></b>\nYou agree that you have read and accepted all Terms and Conditions of this agreement as a binding contract between Maximal Tours and Events LLC (aka, Maximal Tours and MT ) and you, the trip participant upon submission of your online booking form and payment of your trip deposit. In addition, Maximal Tours will supply and requires a duly signed Release and Waiver form.
+
+<b><u><i>Trip Reservation and Deposit</i></u></b>\nA non- refundable deposit is required(according to the application) to establish and hold a reservation.
+
+<b><u><i>Cancellation Fee and Refunds</i></u></b>\nIf you provide written notice of your intention to cancel the trip
+Up to 42nd day before the start of the journey: 20 %
+Up to 30th day before the start of the journey: 30 %
+Up to 15th day before the start of the journey: 40 %
+Up to 07th day before the start of the journey: 60 %
+Up to 03rd day before the start of the journey: 80 %
+Up to 02nd day before the start of the journey: 80 %
+From the 2nd day before the start of the trip or no show 85 %
+
+No refunds will be made to participants who drop out after the trip has begun. No exceptions to this policy will be made for any reason.</string>
+    <string name="textview90"><u>Requirements</u></string>
+    <string name="textview93_rqd">1. Must Carry latest Covid-19 dose Vaccination Certificate
+    2. Must carry enough Cloths but overall weight of your luggage must be less than 20Kg
+    3. Aadhar Card, Passport size Photograph
+    4. Toothpaste, Brush, Towel,etc.
+    </string>
+
+
+</resources>
